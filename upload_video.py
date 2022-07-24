@@ -89,7 +89,7 @@ class Unittest(unittest.TestCase):
     loggearse = driver.find_element(By.NAME, "identifier")
     loggearse.click()
     time.sleep(random.uniform(0.1,1))
-    loggearse.send_keys("xactuallyfunnymemesx@gmail.com") # ACA PONER EL USER
+    loggearse.send_keys("@gmail.com") # ACA PONER EL USER
     print("Pone user")
     time.sleep(random.uniform(1.0,2))
     loggearse.send_keys(Keys.ENTER)
@@ -98,7 +98,7 @@ class Unittest(unittest.TestCase):
     time.sleep(random.uniform(0.1,1))
     loggearse.click()
     time.sleep(random.uniform(0.1,1)) 
-    loggearse.send_keys('BotDeMemesxD') #ACA VA LA PASSWORD
+    loggearse.send_keys('') #ACA VA LA PASSWORD
     print("Pone contra")
     time.sleep(random.uniform(0.1,1))
     loggearse.send_keys(Keys.ENTER)
